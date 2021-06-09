@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://websitewithtabs.netlify.com/"
+baseURL = "https://websitewithtabs.netlify.app/"
 title = "Bigspring Hugo"
 theme = "bigspring"
 # post pagination
