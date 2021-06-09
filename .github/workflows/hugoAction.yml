@@ -1,0 +1,13 @@
+name: Action Hugo
+on:
+  push:
+    branches: 
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: kevvurs/action-hugo@v1.0-rc2
+    - uses: marccampbell/hugo-linkcheck-action@v0.1.3
