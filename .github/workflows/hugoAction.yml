@@ -1,13 +1,12 @@
-name: Action Hugo
-on:
-  push:
-    branches: 
-      - master
-
+name: End-to-end tests
+on: [push]
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    
+  cypress-run:
+    runs-on: ubuntu-20.04
     steps:
-    - name: Cypress run
-      uses: cypress-io/github-action@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
