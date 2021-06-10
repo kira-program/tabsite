@@ -1,0 +1,10 @@
+{
+ "comments": {
+  "dependencies": {},
+  "devDependencies": {}
+ },
+ "dependencies": {},
+ "devDependencies": {"cypress": "6.8.0"},
+ "name": "tabsite",
+ "version": "0.1.0"
+}
