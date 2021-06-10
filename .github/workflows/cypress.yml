@@ -1,8 +1,6 @@
 name: Cypress
 on:
-  push:
-    branches: 
-      - master
+  status
 jobs:
   build:
     runs-on: ubuntu-18.04
