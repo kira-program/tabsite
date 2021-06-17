@@ -16,8 +16,4 @@ jobs:
 
         with:
           url: https://websitewithtabs.netlify.app/
-          cmd_params: --exclude=https://www.googletagmanager.com --exclude=https://platform.twitter.com --exclude=https://use.fontawesome.com --exclude=https://fonts.googleapis.com 
-                      --exclude=https://fonts.gstatic.com  --exclude=https://gethugothemes.com/ --exclude=https://platform.linkedin.com --exclude=https://websitewithtabs.netlify.app/courses/#ai 
-                      --exclude=https://websitewithtabs.netlify.app/courses/#app --exclude=https://websitewithtabs.netlify.app/courses/#ar --exclude=https://websitewithtabs.netlify.app/courses/#cad 
-                      --exclude=https://websitewithtabs.netlify.app/courses/#data --exclude=https://websitewithtabs.netlify.app/courses/#embedded --exclude=https://websitewithtabs.netlify.app/courses/#python
-                      --exclude=https://websitewithtabs.netlify.app/courses/#vr --exclude=https://websitewithtabs.netlify.app/courses/#web
+          cmd_params: --exclude=https://www.googletagmanager.com 
