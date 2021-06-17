@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 19 * * *'
 
 name: Check markdown links
 jobs:
@@ -15,4 +15,7 @@ jobs:
           url: https://websitewithtabs.netlify.app/
           cmd_params: --exclude=https://www.googletagmanager.com, https://platform.twitter.com,
                                 https://use.fontawesome.com, https://fonts.googleapis.com, https://fonts.gstatic.com, 
-                                https://gethugothemes.com/, https://platform.linkedin.com
+                                https://gethugothemes.com/, https://platform.linkedin.com, https://websitewithtabs.netlify.app/courses/#ai, 
+                                https://websitewithtabs.netlify.app/courses/#app, https://websitewithtabs.netlify.app/courses/#ar, https://websitewithtabs.netlify.app/courses/#cad, 
+                                https://websitewithtabs.netlify.app/courses/#data, https://websitewithtabs.netlify.app/courses/#embedded, https://websitewithtabs.netlify.app/courses/#python,
+                                https://websitewithtabs.netlify.app/courses/#vr, https://websitewithtabs.netlify.app/courses/#web
