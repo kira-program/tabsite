@@ -1,6 +1,9 @@
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: '0 19 * * *'
+    - cron: '0 0 * * *'
 
 name: Check markdown links
 jobs:
@@ -13,9 +16,8 @@ jobs:
 
         with:
           url: https://websitewithtabs.netlify.app/
-          cmd_params: --exclude=https://www.googletagmanager.com, https://platform.twitter.com,
-                                https://use.fontawesome.com, https://fonts.googleapis.com, https://fonts.gstatic.com, 
-                                https://gethugothemes.com/, https://platform.linkedin.com, https://websitewithtabs.netlify.app/courses/#ai, 
-                                https://websitewithtabs.netlify.app/courses/#app, https://websitewithtabs.netlify.app/courses/#ar, https://websitewithtabs.netlify.app/courses/#cad, 
-                                https://websitewithtabs.netlify.app/courses/#data, https://websitewithtabs.netlify.app/courses/#embedded, https://websitewithtabs.netlify.app/courses/#python,
-                                https://websitewithtabs.netlify.app/courses/#vr, https://websitewithtabs.netlify.app/courses/#web
+          cmd_params: --exclude=https://www.googletagmanager.com --exclude=https://platform.twitter.com --exclude=https://use.fontawesome.com --exclude=https://fonts.googleapis.com 
+                      --exclude=https://fonts.gstatic.com  --exclude=https://gethugothemes.com/ --exclude=https://platform.linkedin.com --exclude=https://websitewithtabs.netlify.app/courses/#ai 
+                      --exclude=https://websitewithtabs.netlify.app/courses/#app --exclude=https://websitewithtabs.netlify.app/courses/#ar --exclude=https://websitewithtabs.netlify.app/courses/#cad 
+                      --exclude=https://websitewithtabs.netlify.app/courses/#data --exclude=https://websitewithtabs.netlify.app/courses/#embedded --exclude=https://websitewithtabs.netlify.app/courses/#python
+                      --exclude=https://websitewithtabs.netlify.app/courses/#vr --exclude=https://websitewithtabs.netlify.app/courses/#web
