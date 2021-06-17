@@ -13,3 +13,4 @@ jobs:
 
         with:
           url: https://websitewithtabs.netlify.app/
+          cmd_params: --exclude=https://websitewithtabs.netlify.app/courses/
