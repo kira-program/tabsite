@@ -22,4 +22,4 @@ jobs:
                       --exclude=(https?:)?//platform.twitter.com
                       --exclude=(https?:)?//fonts.googleapis.com
                       --exclude=(https?:)?//platform.linkedin.com
-                      --exclude=//websitewithtabs.netlify.app/courses/#
+                      --exclude=(https?:)?//websitewithtabs.netlify.app/courses/.*$
