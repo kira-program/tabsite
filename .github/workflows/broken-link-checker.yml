@@ -22,12 +22,4 @@ jobs:
                       --exclude=(https?:)?//platform.twitter.com
                       --exclude=(https?:)?//fonts.googleapis.com
                       --exclude=(https?:)?//platform.linkedin.com
-                      --exclude=//websitewithtabs.netlify.app/courses/#ai
-                      --exclude=//websitewithtabs.netlify.app/courses/#app
-                      --exclude=//websitewithtabs.netlify.app/courses/#ar
-                      --exclude=//websitewithtabs.netlify.app/courses/#cad
-                      --exclude=//websitewithtabs.netlify.app/courses/#data
-                      --exclude=//websitewithtabs.netlify.app/courses/#embedded
-                      --exclude=//websitewithtabs.netlify.app/courses/#python
-                      --exclude=//websitewithtabs.netlify.app/courses/#vr
-                      --exclude=//websitewithtabs.netlify.app/courses/#web
+                      --exclude=//websitewithtabs.netlify.app/courses/#
