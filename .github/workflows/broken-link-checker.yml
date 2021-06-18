@@ -16,4 +16,6 @@ jobs:
 
         with:
           url: https://websitewithtabs.netlify.app/
-          cmd_params: --exclude=https://www.googletagmanager.com 
+          cmd_params: --exclude=https://use.fontawesome.com 
+                      --exclude=https://fonts.gstatic.com  --exclude=https://gethugothemes.com/ 
+                      --exclude=^//www.*$
