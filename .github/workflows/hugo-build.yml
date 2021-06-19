@@ -23,6 +23,5 @@ jobs:
       - name: Build
         run: |
           hugo --gc
-          cp LICENSE README.md public/
-          echo "${{ github.event.repository.name }}" > public/CNAME
+
 
